@@ -10,7 +10,7 @@ body {
     width: 1200px;
     max-width: 100%;
     display: flex;
-    background-color: #262626;
+    background-color: #121212;
     font-family: sans-serif;
 }
 
@@ -161,12 +161,20 @@ main {
     border-radius: 50%;
     border: 2px solid transparent;
     margin-right: 10px;
+    object-fit: cover;
     background: linear-gradient( 45deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 59%, rgba(252, 176, 69, 1) 100%);
 }
 
 .post-details .name {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
+    color: #fafafa;
+}
+
+.post-details .location {
+    font-size: 14px;
+    margin-top: 4px;
+    color: #fafafa;
 }
 
 .post-content img {
@@ -191,7 +199,7 @@ main {
 }
 
 .post-comment-box {
-    padding: 0 16px 16px 16px;
+    padding: 0px 16px 16px 16px;
 }
 
 .post-comment-box p {
@@ -206,7 +214,7 @@ main {
 
 .post-comment-box .name {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 
@@ -224,7 +232,7 @@ main {
 
 .sub-comment {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .sub-comment span {
@@ -275,7 +283,6 @@ main {
 }
 
 .right-side {
-    width: 35%;
     margin-top: 20px;
     margin-left: 30px;
 }
@@ -288,7 +295,7 @@ main {
 .profile-sub-title {
     display: flex;
     align-items: center;
-    margin-right: 45px;
+    margin-right: 130px;
 }
 
 .profile-sub-title .images img {
@@ -299,4 +306,94 @@ main {
 
 .details-profile .name {
     padding-bottom: 3px;
+    color: #fafafa;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.usernme {
+    color: #a8a8a8;
+}
+
+.suggestions {
+    display: flex;
+    margin: 25px 0 20px 0;
+    justify-content: space-between;
+}
+
+.profile-right p {
+    color: #0095f6;
+    font-size: 17px;
+}
+
+.suggestions p {
+    color: #a8a8a8;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.suggestions .see {
+    margin-left: 60px;
+    color: #fafafa;
+    font-size: 18px;
+}
+
+.suggestion-title {
+    display: flex;
+    align-items: center;
+}
+
+.suggestion-left {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.suggestion-left .images img {
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.detail-suggestion {
+    margin-bottom: 3px;
+}
+
+.detail-suggestion .name {
+    color: #fafafa;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.detail-suggestion .followed {
+    font-size: 14px;
+    color: #a8a8a8;
+    margin-top: 7px;
+}
+
+.suggestion-right p {
+    color: #0095f6;
+}
+
+.footer-list ul {
+    margin-top: 30px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    margin-bottom: 20px;
+}
+
+.footer-list a li {
+    color: #737373;
+    font-size: 14px;
+    margin-left: 4px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.finally {
+    color: #737373;
+    font-size: 17px;
+    margin-left: 30px;
 }
